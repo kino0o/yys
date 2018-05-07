@@ -1,0 +1,2064 @@
+#nie-download .close-donwloadbar, #nie-download .download-txt, #nie-download .buttons a, #nie-download .button-desktop, .nie-download-wrap .fold-wrap a, .index-slide-bar .slidebar-title, .bg-tree, .index-slide-bar .link-list a, .index-slide-bar .link-list a .icon-h, .index-slide-bar .stone-bg, #news-wrap .news-tabs span, #news-wrap .news-tabs i, .shishen-section .com-tabs .tab-name-safety, .tab-doshed, .com-tabs a span, .com-tabs a em, .shishen-section .pingan-container .shishenlist-container .shishien-wrap .shishen-list-item, .shishen-section .pingan-container .shishenlist-container .shishien-wrap b, .shishen-section .pingan-container .leadlist-container .lead-info .lead-num, .shishen-section .pingan-container .leadlist-container .lead-info .to-lead-detail, .strategy-section .strategy-left-part .search span, .strategy-section .strategy-left-part .strategy-box .strategy-nav a span, .strategy-section .strategy-left-part .strategy-box .strategy-nav .strategy-line, .strategy-section .strategy-right-part .strategy-tabs .tab-name-strategy, .tongren-section .tongren-topbar .tongren-title, .tongren-section .tongren-topbar ul li a div, .tongren-section .tongren-pics-wrap ul li a span em, .shitu-section .shitu-wrap .part a.part-title, .code-section .code-wrap em, .code-section .server-wrap .server-icon, .footer-page .txt1, .footer-page a .txt2, .footer-page a .bar, .footer-page a .door, .footer-page a .bottom-code-wrap div {
+    background: url("../images/index_z_6e70f35.png") no-repeat;
+}
+
+.main {
+    /*height: 1400px;*/
+}
+
+/*banner*/
+.main-banner {
+    width: 100%;
+    height: 585px;
+    background: url("../images/index/main_banner_1af72db.jpg") center center no-repeat;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    width: 50px;
+    height: 162px;
+    position: absolute;
+    left: 50px;
+    top: 38px;
+    z-index: 30;
+}
+
+.logo span {
+    background: url("../images/50.png");
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.logo.animate span {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+.open-server-pop {
+    display: inline-block;
+    width: 135px;
+    height: 118px;
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -535px;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -ms-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+}
+
+.open-server-pop img {
+    width: 102px;
+}
+
+.open-server-pop:hover {
+    opacity: .7;
+    filter: alpha(opacity=70);
+}
+
+/*下载*/
+.nie-download-wrap {
+    position: absolute;
+    top: 462px;
+    left: 50%;
+    width: 533px;
+    height: 123px;
+    margin-left: -291px;
+    background: #fccc00;
+    overflow: hidden;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    border-radius: 10px 0 0 10px;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+
+.nie-download-wrap.fold {
+    margin-left: 200px;
+    width: 360px;
+}
+
+#nie-download {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nie-download-wrap.fold #nie-download {
+    display: none;
+}
+
+#nie-download .close-donwloadbar {
+    float: left;
+    background-position: -1827px -1164px;
+    width: 22px;
+    height: 23px;
+    margin-right: 10px;
+}
+
+#nie-download .download-txt {
+    float: left;
+    background-position: -1635px -312px;
+    width: 45px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+#nie-download .NIE-qrcode {
+    float: left;
+    width: 91px;
+    height: 91px;
+    padding: 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #fff;
+    position: relative;
+}
+
+.NIE-qrcode img {
+    width: 100%;
+}
+
+.NIE-qrcode img.line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: line-top-bot 2.5s linear infinite;
+    -o-animation: line-top-bot 2.5s linear infinite;
+    animation: line-top-bot 2.5s linear infinite;
+}
+
+@keyframes line-top-bot {
+    0% {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(90px);
+        -moz-transform: translateY(90px);
+        -ms-transform: translateY(90px);
+        -o-transform: translateY(90px);
+        transform: translateY(90px);
+    }
+}
+
+#nie-download .buttons {
+    float: left;
+    margin-left: 6px;
+}
+
+#nie-download .buttons a {
+    display: block;
+    margin-bottom: 5px;
+    width: 171px;
+    height: 51px;
+    cursor: pointer;
+}
+
+#nie-download .buttons a:first-child {
+    background-position: -1300px -1372px;
+}
+
+#nie-download .buttons a:first-child:hover {
+    background-position: -809px -1531px;
+}
+
+#nie-download .buttons a:first-child + a {
+    background-position: -638px -1531px;
+}
+
+#nie-download .buttons a:first-child + a:hover {
+    background-position: -1300px -1423px;
+}
+
+#nie-download .button-desktop {
+    display: inline-block;
+    float: left;
+    width: 131px;
+    height: 107px;
+    margin: auto 6px;
+    background-position: -991px -661px;
+}
+
+#nie-download .button-desktop:hover em {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    opacity: .2;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
+}
+
+.nie-download-wrap .fold-wrap {
+    padding-left: 10px;
+    padding-top: 10px;
+    display: none;
+}
+
+.nie-download-wrap.fold .fold-wrap {
+    display: block;
+}
+
+.nie-download-wrap .fold-wrap a {
+    display: inline-block;
+    background-position: -1503px -870px;
+    width: 22px;
+    height: 105px;
+}
+
+/*游戏手账*/
+.index-slide-bar {
+    background: url("../images/index/side_bg_5dd8cde.png") no-repeat;
+    width: 347px;
+    height: 1107px;
+    position: absolute;
+    top: 345px;
+    left: 50%;
+    margin-left: 233px;
+    z-index: 10;
+}
+
+/*背景大树*/
+.bg-tree {
+    background-position: -323px 0;
+    width: 668px;
+    height: 467px;
+    position: absolute;
+    top: 866px;
+    left: 50%;
+    margin-left: 233px;
+    z-index: 9;
+}
+
+.index-slide-bar .arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fccc00;
+    position: absolute;
+    top: 140px;
+    left: 0;
+}
+
+.index-slide-bar .slidebar-title {
+    background-position: -1048px -1183px;
+    width: 321px;
+    height: 168px;
+    display: block;
+    position: relative;
+    top: -15px;
+    left: 25px;
+    z-index: 10;
+}
+
+.index-slide-bar .link-list {
+    width: 346px;
+    padding-top: 130px;
+    z-index: 11;
+}
+
+.index-slide-bar .link-list a {
+    display: block;
+    position: relative;
+    margin-left: 28px;
+    margin-top: -26px;
+    padding-top: 0;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    z-index: 12;
+}
+
+.index-slide-bar .link-list a .icon-h {
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.index-slide-bar .link-list a:hover {
+    -webkit-transform: translateX(15px);
+    -moz-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    -o-transform: translateX(15px);
+    transform: translateX(15px);
+}
+
+.index-slide-bar .link-list a span {
+    display: block;
+    font-size: 13px;
+    color: #000;
+    width: 182px;
+    position: absolute;
+}
+
+.index-slide-bar .link-list a .icon-h .yuhun-con {
+    color: #000;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 104px 25px 0 25px;
+}
+
+.index-slide-bar .link-list a .icon-h .yuhun-con p {
+    padding: 0;
+    margin: 7px 0;
+}
+
+/*1斗技*/
+.index-slide-bar .link-list a.icon1 {
+    background-position: -979px -1372px;
+    width: 321px;
+    height: 104px;
+    margin-top: -150px;
+    z-index: 21;
+}
+
+.index-slide-bar .link-list a.icon1 span {
+    left: 25px;
+    top: 57px;
+}
+
+/*2逢魔之时*/
+.index-slide-bar .link-list a.icon2 {
+    background-position: -323px -467px;
+    width: 323px;
+    height: 130px;
+    margin-left: -2px;
+    z-index: 20;
+}
+
+.index-slide-bar .link-list a.icon2 .icon2-hover {
+    background-position: 0 0;
+    width: 323px;
+    height: 0;
+}
+
+.index-slide-bar .link-list a.icon2:hover .icon2-hover {
+    height: 605px;
+}
+
+/*3挑战boss*/
+.index-slide-bar .link-list a.icon3 {
+    background-position: -319px -1531px;
+    width: 319px;
+    height: 96px;
+    margin-right: 1px;
+    margin-top: -8px;
+    z-index: 19;
+}
+
+.index-slide-bar .link-list a.icon3 .icon3-hover {
+    background-position: 0 -969px;
+    width: 319px;
+    height: 0;
+}
+
+.index-slide-bar .link-list a.icon3:hover .icon3-hover {
+    height: 214px;
+}
+
+/*4狩猎战*/
+.index-slide-bar .link-list a.icon4 {
+    background-position: -646px -467px;
+    width: 319px;
+    height: 111px;
+    margin-left: 2px;
+    margin-top: -14px;
+    z-index: 18;
+}
+
+.index-slide-bar .link-list a.icon4 span {
+    top: 50px;
+    right: 2px;
+}
+
+/*5御魂副本*/
+.index-slide-bar .link-list a.icon5 {
+    background-position: -650px -1372px;
+    width: 329px;
+    height: 145px;
+    margin-top: -16px;
+    z-index: 17;
+}
+
+.index-slide-bar .link-list a.icon5 span {
+    top: 65px;
+    left: 10px;
+    width: auto;
+}
+
+.index-slide-bar .link-list a.icon5 .icon5-hover {
+    background-position: -447px -605px;
+    width: 319px;
+    height: 0;
+    overflow: hidden;
+}
+
+.index-slide-bar .link-list a.icon5:hover .icon5-hover {
+    height: 338px;
+}
+
+/*6挑战副本*/
+.index-slide-bar .link-list a.icon6 {
+    background-position: 0 -1531px;
+    width: 319px;
+    height: 99px;
+    margin-left: 2px;
+    margin-top: -50px;
+    z-index: 16;
+}
+
+.index-slide-bar .link-list a.icon6 .icon6-hover {
+    background-position: 0 -605px;
+    width: 319px;
+    height: 0;
+}
+
+.index-slide-bar .link-list a.icon6:hover .icon6-hover {
+    height: 365px;
+}
+
+/*7悬赏封印*/
+.index-slide-bar .link-list a.icon7 {
+    background-position: -1542px -516px;
+    width: 312px;
+    height: 100px;
+    margin-top: -5px;
+    z-index: 15;
+}
+
+.index-slide-bar .link-list a.icon7 span {
+    top: 62px;
+    left: 16px;
+}
+
+/*8式神委派*/
+.index-slide-bar .link-list a.icon8 {
+    background-position: -1542px -416px;
+    width: 294px;
+    height: 100px;
+    margin-top: -12px;
+    z-index: 14;
+}
+
+.index-slide-bar .link-list a.icon8 span {
+    top: 46px;
+    right: 10px;
+    width: 145px;
+}
+
+.index-slide-bar .link-list a.icon8 .icon8-hover {
+    background-position: -1230px -199px;
+    width: 294px;
+    height: 0;
+    overflow: hidden;
+}
+
+.index-slide-bar .link-list a.icon8:hover .icon8-hover {
+    height: 187px;
+}
+
+/*9结界突破*/
+.index-slide-bar .link-list a.icon9 {
+    background-position: -1542px 0;
+    width: 312px;
+    height: 104px;
+    margin-top: -12px;
+    z-index: 13;
+}
+
+.index-slide-bar .link-list a.icon9 span {
+    top: 50px;
+    left: 26px;
+}
+
+.index-slide-bar .stone-bg {
+    background-position: -657px -1183px;
+    width: 391px;
+    height: 183px;
+    position: absolute;
+    bottom: 58px;
+    right: -130px;
+    z-index: 10;
+}
+
+/*新闻区域*/
+.news-section {
+    background: #fff;
+    width: 100%;
+    position: relative;
+    padding-bottom: 19px;
+}
+
+.news-section .news-part-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#news-banner {
+    width: 360px;
+    height: 270px;
+    position: relative;
+    float: left;
+    margin-left: -106px;
+}
+
+#news-banner ul {
+    margin: 0;
+    padding: 0;
+}
+
+#news-banner .banner-nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 100%;
+    margin-left: -25%;
+}
+
+#news-banner .banner-nav ul li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-left: 6px;
+    border: 3px solid #e37b65;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#news-banner .banner-nav ul li.on {
+    background: #e37b65;
+}
+
+#news-wrap {
+    float: left;
+    width: 500px;
+    height: 270px;
+    margin-left: 40px;
+}
+
+#news-wrap ul {
+    margin: 0;
+    padding: 0;
+}
+
+#news-wrap ul li {
+    float: left;
+}
+
+#news-wrap .news-tabs {
+    padding: 0 10px 10px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 2px;
+}
+
+#news-wrap .news-tabs a {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 80px;
+    margin-right: 7px;
+    z-index: 10;
+}
+
+#news-wrap .news-tabs span {
+    display: inline-block;
+    width: 44px;
+    height: 30px;
+}
+
+#news-wrap .news-tabs i {
+    background-position: -1836px -416px;
+    width: 17px;
+    height: 28px;
+    margin-left: 18px;
+    position: relative;
+    top: 6px;
+    display: inline-block;
+}
+
+#news-wrap .news-tabs div {
+    position: absolute;
+    top: 14px;
+    left: -10px;
+    width: 74px;
+    height: 33px;
+    background: #68d7fc;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    display: block;
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    /*-webkit-transform: translate3d(0, 20%, 0);*/
+    /*-moz-transform: translate3d(0, 20%, 0);*/
+    /*-ms-transform: translate3d(0, 20%, 0);*/
+    /*-o-transform: translate3d(0, 20%, 0);*/
+    /*transform: translate3d(0, 20%, 0);*/
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    z-index: -1;
+}
+
+#news-wrap .news-tabs li.active div, #news-wrap .news-tabs a:hover div {
+    display: block;
+    opacity: 1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    top: 4px;
+    /*-webkit-transform: translate3d(0, 0, 0);*/
+    /*-moz-transform: translate3d(0, 0, 0);*/
+    /*-ms-transform: translate3d(0, 0, 0);*/
+    /*-o-transform: translate3d(0, 0, 0);*/
+    /*transform: translate3d(0, 0, 0);*/
+}
+
+#news-wrap .news-tabs .newest span {
+    background-position: -1184px -631px;
+}
+
+#news-wrap .news-tabs .news span {
+    background-position: -1177px -345px;
+}
+
+#news-wrap .news-tabs .notice span {
+    background-position: -1139px -631px;
+}
+
+#news-wrap .news-tabs .activity span {
+    background-position: -1782px -1164px;
+}
+
+#news-wrap .news-tabs .media span {
+    background-position: -1177px -375px;
+    margin-left: -30px;
+}
+
+#news-wrap .news-list {
+    width: 100%;
+    border-top: 1px solid #000;
+}
+
+#news-wrap .news-list li {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px dotted #999;
+}
+
+#news-wrap .news-list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+}
+
+#news-wrap .news-list li a span.news-title {
+    width: 80%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    text-align: left;
+}
+
+#news-wrap .news-list li a span.news-title:hover {
+    color: #c1831c;
+}
+
+#news-wrap .news-list li a span.news-date {
+    width: 20%;
+    font-size: 12px;
+    color: #bccdcc;
+    float: right;
+    text-align: right;
+}
+
+#news-wrap .news-list li.recommend {
+    background: #fefbd2;
+}
+
+#news-wrap .news-list li.recommend a {
+    background: url("../images/recommend_c87c343.png") left center no-repeat;
+    padding-left: 60px;
+    font-size: 16px;
+    color: #313131;
+    font-weight: 700;
+}
+
+#news-wrap .news-list li.recommend a span {
+    color: #313131;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*式神、攻略头部导航*/
+.tab-doshed {
+    background-position: -1805px -384px;
+    width: 44px;
+    height: 4px;
+    float: left;
+    margin: 33px 10px auto;
+}
+
+.com-tabs a {
+    display: block;
+    width: 100px;
+    height: 91px;
+    position: relative;
+    top: -11px;
+    float: left;
+}
+
+.com-tabs a em {
+    background-position: -1631px -616px;
+    width: 96px;
+    height: 91px;
+    display: block;
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    margin-top: 6%;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.com-tabs a:hover em {
+    opacity: 1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    margin-top: 0;
+}
+
+.com-tabs a.on em {
+    opacity: 1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    margin-top: 0;
+}
+
+.com-tabs a span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/*式神主角*/
+.shishen-section {
+    width: 100%;
+    height: 607px;
+    background: #fff url("../images/index/strategy_bg_764452f.jpg") center no-repeat;
+}
+
+/*式神主角切换tab*/
+.shishen-section .com-tabs {
+    width: 1200px;
+    margin: 0 auto 43px;
+}
+
+.shishen-section .com-tabs .tab-name-safety {
+    background-position: -1369px -1183px;
+    width: 130px;
+    height: 69px;
+    float: left;
+}
+
+.shishen-section .com-tabs .tab-name-shishen span {
+    background-position: -1782px -1387px;
+    width: 70px;
+    height: 33px;
+    margin-top: -21px;
+    margin-left: -35px;
+}
+
+.shishen-section .com-tabs .tab-name-lead span {
+    background-position: -1782px -1237px;
+    width: 64px;
+    height: 36px;
+    margin-top: -23px;
+    margin-left: -35px;
+}
+
+/*式神主角内容*/
+.shishen-section .pingan-container {
+    width: 1200px;
+    height: 304px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*式神导航*/
+.shishen-section .pingan-container .shishen-topbar {
+    height: 50px;
+    margin-bottom: 33px;
+    border-bottom: 1px dotted #333;
+    width: 804px;
+}
+
+.shishen-section .pingan-container .shishen-topbar a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Microsoft JhengHei", 'Microsoft Yahei';
+    line-height: 50px;
+    margin-right: 32px;
+}
+
+.shishen-section .pingan-container .shishen-topbar a.on {
+    color: #cea441;
+}
+
+.shishen-section .pingan-container .shishen-topbar .shishen-tabs {
+    float: left;
+    margin-left: 16px;
+}
+
+.shishen-section .pingan-container .shishen-topbar .btn-viewall {
+    float: left;
+    width: 131px;
+    height: 29px;
+    background: url(../images/index/viewAll_btn_18af8fe.png) no-repeat;
+    top: 50%;
+    margin-top: -14px;
+    position: relative;
+}
+
+/*式神*/
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap {
+    position: relative;
+    margin-left: -42px;
+    width: 862px;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap .tempWrap {
+    width: 750px !important;
+    margin-left: 42px;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap ul {
+    padding: 0;
+    margin: 0 0 0 42px;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap li {
+    float: left;
+    width: 89px;
+    height: 202px;
+    padding: 5px 20px 0 0;
+    border-right: 1px solid #95a7a4;
+    margin-right: 20px;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap .shishen-list-item {
+    display: block;
+    width: 89px;
+    height: 92px;
+    background-position: -1542px -616px;
+    text-align: center;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap .shishen-list-item img {
+    width: 82px;
+    height: 82px;
+    margin-top: 5px;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap .shishen-list-item .item-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 89px;
+    height: 92px;
+    background: url("../images/mask_6b7d844.png") repeat;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    text-align: center;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap .shishen-list-item:hover .item-hover {
+    opacity: 1;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap .shishen-list-item .item-hover .item-hover-text {
+    font-weight: 400;
+    font-style: normal;
+    width: 19px;
+    height: 92px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    left: 35px;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap .shishen-list-item em {
+    display: inline-block;
+    width: 31px;
+    height: 36px;
+    background: url("../images/new_icon_253bf40.png") no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -10px;
+}
+
+/*式神切换*/
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap b {
+    position: absolute;
+    width: 42px;
+    height: 33px;
+    top: 50%;
+    margin-top: -16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap b.shishen-prev {
+    background-position: -1782px -1434px;
+    left: 0;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap b.shishen-prev:hover {
+    background-position: -1177px -311px;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap b.shishen-next {
+    background-position: -1478px -981px;
+    right: 30px;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap b.shishen-next:hover {
+    background-position: -1782px -1467px;
+}
+
+.shishen-section .pingan-container .shishenlist-container .shishien-wrap b.prevStop, b.nextStop {
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+
+/*主角切换*/
+.shishen-section .pingan-container .lead-tab {
+    float: left;
+    margin-top: 20px;
+}
+
+.shishen-section .pingan-container .lead-tab div {
+    width: 140px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.shishen-section .pingan-container .lead-tab div span {
+    display: inline-block;
+    width: 126px;
+    height: 35px;
+    background: transparent;
+    border: 2px solid #fff;
+    font-size: 18px;
+    line-height: 35px;
+    color: #000;
+    text-align: center;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+.shishen-section .pingan-container .lead-tab div:hover span {
+    background: #fff;
+    border: 2px solid #000;
+}
+
+.shishen-section .pingan-container .lead-tab div.on span {
+    background: #fff;
+    border: 2px solid #000;
+}
+
+.shishen-section .pingan-container .lead-tab div em {
+    display: inline-block;
+    border-left: 5px solid #000;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+.shishen-section .pingan-container .lead-tab div:hover em {
+    opacity: 1;
+}
+
+.shishen-section .pingan-container .lead-tab div.on em {
+    opacity: 1;
+}
+
+/*主角介绍*/
+.shishen-section .pingan-container .lead-container {
+    width: 809px;
+}
+
+.shishen-section .pingan-container .leadlist-container {
+    float: right;
+}
+
+.shishen-section .pingan-container .leadlist-container .lead-pic {
+    margin-top: -25px;
+    margin-right: 35px;
+    float: left;
+}
+
+.shishen-section .pingan-container .leadlist-container .lead-info {
+    float: right;
+    width: 227px;
+    padding-top: 40px;
+}
+
+.shishen-section .pingan-container .leadlist-container .lead-info h3 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.shishen-section .pingan-container .leadlist-container .lead-info p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+    border-top: 1px solid #000;
+    margin-bottom: 19px;
+    margin-top: 0;
+}
+
+.shishen-section .pingan-container .leadlist-container .lead-info .to-lead-detail {
+    display: block;
+    background-position: -1784px -1194px;
+    width: 53px;
+    height: 43px;
+}
+
+.shishen-section .pingan-container .leadlist-container .lead-info .to-lead-detail:hover {
+    opacity: .85;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+}
+
+.shishen-section .pingan-container .leadlist-container .lead-info .lead-num {
+    display: block;
+    width: 38px;
+    height: 23px;
+}
+
+.shishen-section .pingan-container .leadlist-container .lead-info .lead-num.one {
+    background-position: -1177px -406px;
+}
+
+.shishen-section .pingan-container .leadlist-container .lead-info .lead-num.two {
+    background-position: -1183px -767px;
+}
+
+.shishen-section .pingan-container .leadlist-container .lead-info .lead-num.three {
+    background-position: -1183px -791px;
+}
+
+.shishen-section .pingan-container .leadlist-container .lead-info .lead-num.four {
+    background-position: -1486px -536px;
+}
+
+/*攻略*/
+.strategy-section {
+    width: 1200px;
+    margin: 0 auto 100px;
+}
+
+/*攻略左侧*/
+.strategy-section .strategy-left-part {
+    float: left;
+    position: relative;
+    margin-top: -80px;
+}
+
+/*搜索*/
+.strategy-section .strategy-left-part .search input {
+    border: 2px solid #000;
+    width: 318px;
+    height: 44px;
+    font-size: 15px;
+    line-height: 30px;
+    outline: none;
+    padding: 0 0 0 15px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.strategy-section .strategy-left-part .search span {
+    background-position: -1782px -954px;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    float: left;
+    margin-left: -3px;
+    margin-top: -14px;
+}
+
+.strategy-section .strategy-left-part .search span:hover {
+    background-position: -1782px -1034px;
+}
+
+/*banner 导航*/
+.strategy-section .strategy-left-part .strategy-box {
+    border: 2px solid #000;
+    margin-top: 12px;
+    padding-bottom: 5px;
+}
+
+.strategy-section .strategy-left-part .strategy-box .strategy-banner {
+    text-align: center;
+}
+
+.strategy-section .strategy-left-part .strategy-box .strategy-banner-nav {
+    display: inline-block;
+    margin: 12px auto;
+}
+
+.strategy-section .strategy-left-part .strategy-box .strategy-banner-nav a {
+    display: block;
+    width: 8px;
+    height: 8px;
+    margin-left: 6px;
+    border: 4px solid #000;
+    border-radius: 100%;
+    -webkit-transition: background .3s ease;
+    -moz-transition: background .3s ease;
+    -ms-transition: background .3s ease;
+    -o-transition: background .3s ease;
+    transition: background .3s ease;
+    float: left;
+}
+
+.strategy-section .strategy-left-part .strategy-box .strategy-banner-nav a.on {
+    background: #000;
+}
+
+.strategy-section .strategy-left-part .strategy-box .strategy-nav a {
+    display: inline-block;
+    height: 150px;
+}
+
+.strategy-section .strategy-left-part .strategy-box .strategy-nav a span {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    float: left;
+    display: block;
+    width: 24px;
+    height: 134px;
+    margin-right: 25px;
+    margin-left: 32px;
+}
+
+.strategy-section .strategy-left-part .strategy-box .strategy-nav a:hover span {
+    margin-top: -10px;
+}
+
+.strategy-section .strategy-left-part .strategy-box .strategy-nav .strategy-line {
+    float: left;
+    display: block;
+    width: 11px;
+    height: 150px;
+    background-position: -1524px -199px;;
+}
+
+.strategy-section .strategy-left-part .strategy-box .strategy-nav .strategy1 {
+    background-position: -1516px -386px;
+}
+
+.strategy-section .strategy-left-part .strategy-box .strategy-nav .strategy2 {
+    background-position: -1477px -719px;
+}
+
+.strategy-section .strategy-left-part .strategy-box .strategy-nav .strategy3 {
+    background-position: -1429px -719px;
+}
+
+.strategy-section .strategy-left-part .strategy-box .strategy-nav .strategy4 {
+    background-position: -1453px -719px;;
+}
+
+/*攻略右侧*/
+.strategy-section .strategy-right-part {
+    float: right;
+    margin-top: -14px;
+    width: 800px;
+}
+
+.strategy-section .strategy-right-part .strategy-tabs {
+    border-bottom: 1px solid #cbcdcc;
+    width: 775px;
+    float: right;
+    margin-right: 5px;
+}
+
+.strategy-section .strategy-right-part .strategy-tabs .tab-doshed {
+    margin-top: 38px;
+}
+
+.strategy-section .strategy-right-part .strategy-tabs .tab-name-strategy {
+    background-position: -1542px -708px;
+    width: 134px;
+    height: 85px;
+    margin-left: -17px;
+}
+
+.strategy-section .strategy-right-part .strategy-tabs .tab-name-new span {
+    background-position: -1782px -1314px;
+    width: 68px;
+    height: 39px;
+    margin-top: -26px;
+    margin-left: -35px;
+}
+
+.strategy-section .strategy-right-part .strategy-tabs .tab-name-ss span {
+    background-position: -1782px -1354px;
+    width: 71px;
+    height: 33px;
+    margin-top: -21px;
+    margin-left: -35px;
+}
+
+.strategy-section .strategy-right-part .strategy-tabs .tab-name-contend span {
+    background-position: -1151px -874px;
+    width: 75px;
+    height: 38px;
+    margin-top: -26px;
+    margin-left: -35px;
+}
+
+.strategy-section .strategy-right-part .strategy-tabs .tab-name-way span {
+    background-position: -1111px -1129px;
+    width: 80px;
+    height: 31px;
+    margin-top: -18px;
+    margin-left: -35px;
+}
+
+.strategy-section .strategy-right-part .strategy-list ul {
+    padding: 0 0 0 15px;
+    width: 830px !important;
+}
+
+.strategy-section .strategy-right-part .strategy-list ul li {
+    display: block;
+    float: left;
+    width: 359px;
+    margin-right: 56px;
+    border-bottom: 1px dotted #333;
+    padding: 10px 0 8px;
+}
+
+.strategy-section .strategy-right-part .strategy-list ul li a .strategy-title {
+    font-size: 14px;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.strategy-section .strategy-right-part .strategy-list ul li a:hover .strategy-title {
+    color: #c1831c;
+}
+
+.strategy-section .strategy-right-part .strategy-list ul li a .strategy-title em {
+    display: inline-block;
+    border-left: 7px solid #333;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    margin-right: 10px;
+}
+
+.strategy-section .strategy-right-part .strategy-list ul li a .strategy-author {
+    font-size: 14px;
+    color: #b2afaf;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 17px;
+    margin-top: 5px;
+}
+
+/*同人专区*/
+.tongren-section {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+/*同人专区导航*/
+.tongren-section .tongren-topbar {
+    margin-top: -45px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.tongren-section .tongren-topbar .tongren-title {
+    display: inline-block;
+    background-position: -991px -768px;
+    float: left;
+    width: 112px;
+    height: 106px;
+    margin-right: 24px;
+}
+
+.tongren-section .tongren-topbar ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: 77px;
+    overflow: hidden;
+}
+
+.tongren-section .tongren-topbar ul li {
+    display: inline-block;
+    float: left;
+    width: 155px;
+    height: 75px;
+    border-bottom: 2px solid #000;
+}
+
+.tongren-section .tongren-topbar ul li a {
+    display: inline-block;
+    border-left: 1px dotted #333;
+    width: 100%;
+    height: 58px;
+    position: relative;
+}
+
+.tongren-section .tongren-topbar ul li a div {
+    height: 18px;
+    margin: 16px auto 0;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.tongren-section .tongren-topbar ul li:hover a div {
+    margin-top: 0;
+}
+
+.tongren-section .tongren-topbar ul li.on a div {
+    margin-top: 0;
+}
+
+.tongren-section .tongren-topbar ul li a em {
+    background: url("../images/index/icons_8a667d7.png");
+    display: block;
+    width: 100%;
+    height: 54px;
+    position: absolute;
+    left: 0;
+    bottom: -75px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.tongren-section .tongren-topbar ul li:hover a em {
+    bottom: -20px;
+}
+
+.tongren-section .tongren-topbar ul li.on a em {
+    bottom: -20px;
+}
+
+/*精选推荐*/
+.tongren-section .tongren-topbar ul li a.tr-rec {
+    border: none;
+}
+
+.tongren-section .tongren-topbar ul li a.tr-rec div {
+    background-position: -1782px -1012px;
+    width: 72px;
+}
+
+.tongren-section .tongren-topbar ul li a.tr-rec em {
+    background-position: 0 0;
+}
+
+/*同人绘画*/
+.tongren-section .tongren-topbar ul li a.tr-paint div {
+    background-position: -1783px -388px;
+    width: 71px;
+}
+
+.tongren-section .tongren-topbar ul li a.tr-paint em {
+    background-position: -165px 0;
+}
+
+/*玩家cos*/
+.tongren-section .tongren-topbar ul li a.tr-cos div {
+    background-position: -1783px -1092px;
+    width: 71px;
+}
+
+.tongren-section .tongren-topbar ul li a.tr-cos em {
+    background-position: -320px 0;
+}
+
+/*同人视频*/
+.tongren-section .tongren-topbar ul li a.tr-video div {
+    background-position: -1150px -913px;
+    width: 71px;
+}
+
+.tongren-section .tongren-topbar ul li a.tr-video em {
+    background-position: -475px 0;
+}
+
+/*同人小说*/
+.tongren-section .tongren-topbar ul li a.tr-novel div {
+    background-position: -1150px -931px;
+    width: 71px;
+}
+
+.tongren-section .tongren-topbar ul li a.tr-novel em {
+    background-position: -630px 0;
+}
+
+/*高手在民间*/
+.tongren-section .tongren-topbar ul li a.tr-ace div {
+    background-position: -646px -579px;
+    width: 89px;
+}
+
+.tongren-section .tongren-topbar ul li a.tr-ace em {
+    background-position: -785px 0;
+}
+
+/*同人专区图片*/
+.tongren-section .tongren-pics-wrap ul {
+    margin: 0;
+    padding: 0;
+    width: 1220px;
+}
+
+.tongren-section .tongren-pics-wrap ul li {
+    float: left;
+    width: 285px;
+    height: 200px;
+    margin: 0 10px 10px;
+}
+
+.tongren-section .tongren-pics-wrap ul li a {
+    display: block;
+    width: 100%;
+    height: 163px;
+    position: relative;
+}
+
+.tongren-section .tongren-pics-wrap ul li a img {
+    width: 100%;
+    height: 100%;
+}
+
+.tongren-section .tongren-pics-wrap ul li a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    background: url("../images/mask_6b7d844.png") repeat;
+}
+
+.tongren-section .tongren-pics-wrap ul li a span em {
+    display: block;
+    background-position: -1703px -312px;
+    width: 80px;
+    height: 94px;
+    position: relative;
+    top: 50%;
+    margin: -47px auto 0;
+}
+
+.tongren-section .tongren-pics-wrap ul li a:hover span {
+    opacity: 1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+
+.tongren-section .tongren-pics-wrap ul li div {
+    height: 36px;
+    line-height: 36px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    color: #666;
+}
+
+/*画册*/
+.huace-section {
+    width: 1220px;
+    margin: 25px auto 50px;
+}
+
+.huace-section .huace-pics-item {
+    float: left;
+    width: 364px;
+    height: 160px;
+    margin: 0 8px 0 30px;
+    position: relative;
+}
+
+.huace-section .huace-pics-item a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+}
+
+.huace-section .huace-pics-item a img {
+    width: 100%;
+    height: 100%;
+}
+
+.huace-section .huace-pics-item div {
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    width: 20px;
+    background: #fff;
+    border: 2px solid #000;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.huace-section .huace-pics-item div span {
+    width: 15px;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.huace-section .huace-pics-item div em {
+    display: block;
+    width: 40px;
+    height: 20px;
+    position: relative;
+    left: -10px;
+}
+
+/*视频壁纸*/
+.shitu-section {
+    width: 100%;
+    height: 514px;
+    margin-bottom: 65px;
+    background: url(../images/index/video_bg_4fc819d.jpg) 0 0 no-repeat;
+}
+
+.shitu-section .shitu-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 58px;
+}
+
+.shitu-section .shitu-wrap .part {
+    width: 598px;
+    display: inline-block;
+}
+
+.shitu-section .shitu-wrap .part a {
+    display: inline-block;
+    margin: 0 20px 15px 0;
+    width: 270px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.shitu-section .shitu-wrap .part a img {
+    width: 100%;
+    height: 154px;
+    display: inline-block;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.shitu-section .shitu-wrap .part a:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.shitu-section .shitu-wrap .part a div {
+    color: #000;
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+    text-indent: 12px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background: #fff;
+    margin-top: -2px;
+}
+
+.shitu-section .shitu-wrap .part.shitu-video a.part-title {
+    background-position: -1230px -1018px;
+    width: 227px;
+    height: 148px;
+    margin-right: 62px;
+    position: relative;
+    top: -38px;
+}
+
+.shitu-section .shitu-wrap .part.shitu-wallpaper a.part-title {
+    background-position: -1230px -870px;
+    width: 248px;
+    height: 148px;
+    position: relative;
+    margin-right: 42px;
+    top: -38px;
+}
+
+.shitu-section .shitu-wrap .part.shitu-wallpaper a div {
+    background: transparent;
+    color: #666;
+}
+
+/*活动专区*/
+.activity-section {
+    width: 1270px;
+    height: 434px;
+    margin: 0 auto;
+}
+
+.activity-section .activity-title {
+    float: left;
+    width: 257px;
+    height: 370px;
+    margin-right: 37px;
+}
+
+.activity-section ul {
+    float: left;
+    width: 965px;
+    padding: 0;
+    margin: 0;
+}
+
+.activity-section ul li {
+    margin: 0 25px 37px;
+    float: left;
+}
+
+.activity-section ul li a {
+    display: block;
+    width: 270px;
+    height: 153px;
+    overflow: hidden;
+    position: relative;
+}
+
+.activity-section ul li a img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.activity-section ul li a:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.activity-section ul li a span {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 6px;
+    font-size: 14px;
+}
+
+/*二维码*/
+.code-section {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.code-section .code-logo {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 199px;
+    margin-right: 105px;
+}
+
+.code-section .code-wrap {
+    float: left;
+    width: 270px;
+    padding: 20px 0 0 30px;
+    height: 200px;
+    position: relative;
+    background: #f6f6f6;
+    margin-right: 117px;
+    box-sizing: border-box;
+}
+
+.code-section .code-wrap .code {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 132px;
+    height: 132px;
+    background-color: #fff;
+    position: absolute;
+    right: -32px;
+    top: -32px;
+}
+
+.code-section .code-wrap p {
+    width: 27px;
+    line-height: 17px;
+    display: inline-block;
+    font-size: 16px;
+    float: left;
+    margin: 0;
+}
+
+.code-section .code-wrap em.wb-txt {
+    background-position: -1680px -312px;
+    display: block;
+    float: left;
+    width: 24px;
+    height: 96px;
+    margin-top: 2px;
+}
+
+.code-section div.code-line {
+    width: 52px;
+    height: 2px;
+    background: #d1d1d1;
+    position: absolute;
+    bottom: 40px;
+    left: 33px;
+}
+
+.code-section .code-wrap a {
+    position: absolute;
+    bottom: 15px;
+    left: 33px;
+    color: #000;
+    font-size: 14px;
+}
+
+.code-section .code-wrap a span {
+    color: #d2c199;
+}
+
+.code-section .code-wrap em.wx-txt {
+    background-position: -1501px -719px;
+    display: block;
+    float: left;
+    width: 24px;
+    height: 96px;
+    margin-top: 2px;
+}
+
+.code-section .server-wrap {
+    float: left;
+    width: 225px;
+    height: 90px;
+    padding-top: 95px;
+    position: relative;
+}
+
+.code-section .server-wrap .server-icon {
+    background-position: -1084px -431px;
+    position: absolute;
+    width: 111px;
+    height: 109px;
+    top: -32px;
+    left: 0;
+}
+
+.code-section .server-wrap span {
+    font-size: 14px;
+    line-height: 22px;
+    display: block;
+}
+
+.code-section .server-wrap span.tel {
+    font-family: Georgia, "Microsoft Yahei";
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.code-section .server-wrap div.code-line {
+    left: 0;
+    bottom: 25px;
+}
+
+.code-section .server-wrap a {
+    font-size: 13px;
+    color: #dbbe7c;
+    margin-right: 5px;
+}
+
+.code-section .server-wrap a:hover {
+    text-decoration: underline;
+}
+
+/**/
+.footer-page {
+    background: url("../images/index/foot_d53112e.jpg") top center no-repeat;
+    height: 430px;
+    padding-top: 114px;
+    max-width: 1920px;
+    margin: 74px auto 0;
+}
+
+.footer-page .txt1 {
+    background-position: -638px -1582px;
+    width: 591px;
+    height: 29px;
+    margin: -10px auto 10px;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+.footer-page.animate .txt1 {
+    opacity: 1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    margin: 0 auto;
+}
+
+.footer-page a {
+    display: block;
+    margin: 0 auto;
+    width: 330px;
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+}
+
+.footer-page a .txt2 {
+    background-position: -446px -943px;
+    width: 116px;
+    height: 23px;
+    margin: 42px auto 0;
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+.footer-page.animate a .txt2 {
+    margin: 52px auto 0;
+    opacity: 1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+
+.footer-page a:hover .txt2 {
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+.footer-page a .bar {
+    background-position: -1783px -312px;
+    width: 22px;
+    height: 76px;
+    margin: 22px auto 0;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+.footer-page.animate a .bar {
+    margin: 32px auto 0;
+    opacity: 1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+
+.footer-page a:hover .bar {
+    margin-top: -50px;
+}
+
+.footer-page a .door {
+    background-position: -991px 0;
+    width: 239px;
+    height: 311px;
+    position: absolute;
+    top: 183px;
+    left: 50%;
+    margin-left: -119px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.footer-page a:hover .door {
+    margin-top: 60px;
+}
+
+.footer-page a .bottom-code-wrap {
+    width: 152px;
+    height: 152px;
+    position: absolute;
+    left: 50%;
+    top: 75px;
+    margin-left: -76px;
+    margin-top: 30px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    opacity: 0;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+.footer-page a:hover .bottom-code-wrap {
+    margin-top: 0;
+    opacity: 1;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+}
+
+.footer-page a .bottom-code-wrap img {
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 0 30px #a7b9c2;
+    -moz-box-shadow: 0 0 30px #a7b9c2;
+    box-shadow: 0 0 30px #a7b9c2;
+}
+
+.footer-page a .bottom-code-wrap div {
+    background-position: -1486px -386px;
+    width: 16px;
+    height: 150px;
+    position: relative;
+    top: -156px;
+    left: 197px;
+}
+
+
+
+
+
+

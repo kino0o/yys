@@ -1,0 +1,73 @@
+/*新闻底部*/
+#NIE-copyRight {
+    padding-bottom: 15px;
+    background: #000;
+    color: #e6e6e6;
+}
+
+#NIE-copyRight .nie-copyright-new-inner {
+    width: 840px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 15px 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-logo {
+    display: inline-block;
+    height: 48px;
+    min-width: 300px;
+    vertical-align: middle;
+}
+
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-logo a {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 2px;
+    padding-top: 5px;
+}
+
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-logo a.a1 {
+    margin-left: -5px;
+}
+
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-nav {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-nav p {
+    margin: 0;
+}
+
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-nav p.nie-cn-nav-p1 a {
+    color: #fff;
+}
+
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-nav p.nie-cn-nav-p1 a:hover {
+    text-decoration: underline;
+}
+
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-nav p.nie-cn-nav-p2 {
+    height: 28px;
+    line-height: 28px;
+    text-align: left;
+}
+
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-nav p.nie-cn-nav-p2 a {
+    display: inline-block;
+    color: #fff;
+    background: #610000;
+    padding: 0 3px;
+    height: 26px;
+    line-height: 26px;
+    position: absolute;
+    right: 0;
+    top: 21px;
+}
+
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-nav p.nie-cn-nav-p2 a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    min-width: 1200px;
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+    font-family: "Microsoft YaHei", simSun, "Lucida Grande", "Lucida Sans Unicode", Arial;
+    font-size: 12px;
+}
+
+ul, ol, dl {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, em, strong, b {
+    font-weight: 700;
+}
+
+input {
+    outline: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.main {
+    width: 100%;
+    min-width: 1200px;
+    max-width: 1920px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.g-clr {
+    zoom: 1;
+}
